@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+.shopcontainer{
+    display: flex;
+    flex-direction:row; justify-content:center; flex-wrap:wrap;
+    width: 70%;
+    height: 100%;
+    
+}
+
+.shop{display: flex;  width:"100px"; margin-right: -120px;}
+.library{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+.item{  display:flex; flex-flow: row wrap;  justify-content:center;   width:150px ; height:200px ; background-color: hsla(0,0%,100%,.98);  ; border-radius: 4%; padding: 2%; transform-style: preserve-3d;
+    transition: all 0.8s ease;}
+   
+/* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+.thefront{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: #ffc728;
+    color: #000;
+  }
+  
+  /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+  .theback{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: #fafafa;
+    color: #333;
+    text-align: center;
+    transform: rotateY(180deg);
+    
+    
+  }
+  
+
+
+
+
+
+
+.container-fluid{margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom right, #e3f0ff8b, #fafcff73);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;font-family: 'Cinzel Decorative', cursive;
+}
+.sub{margin-top: 30px;margin-left: 90px; width:250px; border-radius:30px;  }
+.sub1:hover{background-color:rgb(218,165,32) ;}
+.sub:hover{background-color:rgb(218,165,32) ;}
+.sub2:hover{background-color:rgb(218,165,32) ;}
+.sub2{ width:250px; border-radius:30px; font-family: 'Cinzel Decorative', cursive; text-align: center; }
+.form-group{margin-top: 10px; margin-bottom: 20px;}
+.sub3{width:100px; border-radius:30px; font-family: 'Cinzel Decorative', cursive; text-align: center;}
+.sub3:hover{background-color:rgb(218,165,32) ;}
+.sub4{width:100px; border-radius:30px; font-family: 'Cinzel Decorative', cursive; text-align: center;}
+.sub4:hover{background-color:red ;}
+.headerc{margin-bottom: 30px; color: rgb(218,165,32);}
+
+.cardt{ padding: 20px; position: relative; z-index: 2;background-color: beige; border-radius:20px ; }
+
+  .cardt > * {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    text-align:start;
+    line-height: 20px;
+  }
+  
+  
+  .cardt:hover{
+    border: 2px solid rgb(218,165,32);
+    transition: all ease .50s;
+    transform: translate(-10%, -10%);
+    z-index: 1;
+    margin-top: 100px;
+  }
+  
+
+.hov{display:"flex" ; flex-flow: row wrap ; justify-content: center;  ; width: 750px;padding-top: 6px; height: 50px;margin-left: -80px;}
+
+
+
+.navA{display: flex; flex-flow: row wrap; justify-content: flex-start}
+
+
+
+.hov1{width:100px; height: 40px;padding-top: 8px;}
+
+.hov2{width:200px; height: 40px;margin-left: 120px;margin-top: -40px;padding-top: 8px;}
+.hov3{width:180px; height: 40px;margin-left: 335px;margin-top: -40px;padding-top: 8px;}
+.hov4{width:170px; height: 40px;margin-left: 530px;margin-top: -40px;padding-top: 8px;}
+
+.search{width:220px; height:50px; padding-top: 7px}
+
+
+@media screen and (max-width: 1500px){
+  .navA{height: 200px; flex-flow: column}
+  .hov1{margin-left:20px}
+  .hov3{width: 470px }
+  .hov4{width: 380px}
+  
+}
+@media screen and (max-width: 1000px){.shopcontainer{flex-flow: row; justify-content: flex-start;}
+.shop{border: solid; margin-right: 10px}}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');

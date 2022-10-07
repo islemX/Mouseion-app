@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+.pdf{display: flex;  flex-flow: row; justify-content: center; width:100% ; 
+
+   
+
+
+}
+.nav{  margin: 80px; margin-top: 20%;  }
+
+.num{display: flex; justify-content: center; flex-flow: row wrap;font-family: 'Cinzel Decorative', cursive; color: azure; font-size: large;}
+.react-pdf__Page__canvas {
+    margin: 0 auto;
+    width: 180%!important;
+    height: 500px !important;
+    display: flex; 
+    zoom: 1.2;
+    -webkit-transform:skew(-15deg);
+    -moz-transform:skew(-15deg);
+    -ms-transform:skew(-15deg);
+    -o-transform:skew(-15deg);
+    transform:skew(-15deg);
+    z-index:2;
+    margin-top: 5%;
+} 
+.icon{
+
+display: flex;
+flex-flow: column;  justify-content: center;
+margin-left: -10%;
+ }
+
+.icon h3{color: azure;font-family: 'Cinzel Decorative', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright; box-shadow: 5px 5px 10px azure;}
+  
+.fab{margin-left: 15px; margin-top: 10px}
+
+
+
+@media screen and (max-width: 500px){
+    .react-pdf__Page__canvas{
+        margin: 0 auto;
+        width: 180%!important;
+        height: 800px !important;
+        display: flex; 
+      
+        z-index:2;
+        margin-top: 5%;
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+  
+       
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');

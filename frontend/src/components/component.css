@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+.nav-bar-styl{
+    font-family: 'Cinzel Decorative', cursive;
+    padding-left:100px;
+    border-radius: 3px;
+    
+    width: 130%;
+}
+
+.nav-bar-brand-styl{
+    margin-left:10px;
+    margin-right:10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.carr{ font-family: 'Cinzel Decorative', cursive;}
+.carr h1{margin-bottom: 40px;}
+/*Styling rating stars of the NavBar*/
+.react-stars-styl{
+    margin-right: 30px;
+    margin-left: 30px;
+    
+}
+.cole{
+    background-color:gray;
+}
+
+
+
+      
+
+
+
+.logo{width:100%;height: 200px;margin-bottom: 200px; border:"solid black"}
+.logo h6{font-family: 'Cinzel Decorative', cursive; text-align: center; margin-top: 35px; margin-left: 25px;}
+
+   
+   
+    .logo img {
+        margin-top: 80px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-left: 50%;
+        width: 60px;
+        border-radius: 10px;
+    }
+    
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+
+
+
+li a {line-height: 2.5; 
+     display: list-item;
+    text-decoration: none;
+color: azure;}
+@media screen and (max-width: 2000px){
+    .nav-bar-styl{width: 100%; height: 100%; display: flex; flex-flow: row wrap; margin-left: 0%; color: azure;}
+    .nav-bar-brand-styl{display: flex; flex-flow: column wrap;}
+   
+
+}
+
+
+
+.cards{display:flex;
+justify-content: center;
+width: 100%;
+
+
+height: 200px;
+}
+
+
+
+
+.container {
+    
+    position:relative;
+    text-align: center;
+    color: white;
+ 
+ width:100px ;
+   
+  }
+  
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:gray;
+    border-radius: 10px;
+    width: 40%;
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  .genre{width: 250px;
+    height:175px;border-radius: 10px;}
+    .Genres h3{ font-family: 'Cinzel Decorative', cursive;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    margin-bottom: 2%;
+margin-left: 2%;}
+.Genres{margin-bottom: 7%;}
+.H2{  font-family: 'Cinzel Decorative', cursive; text-align: center; margin-bottom: 100px; margin-left: 35%; border:solid rgb(218,165,32);width: 500px; border-radius: 20px; }
+.H2:hover{background-color:     rgb(218,165,32);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.linknav{font-family: 'Cinzel Decorative', cursive; font-size: medium; color: azure; }
+.listnavbar li {margin: 10px;}
+.navbarlogin{ height:50px ; display: flex; justify-content: center; flex-flow: column; margin-left:100px ;}
+.navbarlogin2{ height:50px ; display: flex; justify-content: center; flex-flow: column; margin-left:450px ;}

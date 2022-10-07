@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+
+.stats{display: flex;
+    flex-flow: column wrap;
+
+    background-color:burlywood;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    padding-left: 0%;
+    height: 530px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.stats header{ font-size:xx-large; letter-spacing: 3px; 
+  line-height: 50px; font-weight: 500; word-spacing: 20px;  
+  margin-left: 5%;   display:flex;  flex-flow: column; justify-content:center; 
+  width:350px ; height:120px ;  padding: 0.5%; margin-top: 100px;  }
+.stats header:hover{color:azure ;}
+
+.stat1{ display: flex; flex-flow: row wrap; justify-content:center;   width: 280px; height: 500px;   padding-top: 10%; }
+.stat2{ display: flex; flex-flow: row wrap;  width:200px; height: 500px; margin-left: 2%;  }
+
+.figures{display: flex; flex-flow: row;  width: 22%; margin-top: 2%;}
+.figures2{display: flex; flex-flow: row; justify-content: flex-start;  width:320px;margin-left: 3%; margin-top: 2%;}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+  .stats{ height: 730px;display: flex;
+    flex-flow: column wrap; justify-content: flex-start;
+    
+ }
+  .stats header{ writing-mode: vertical-lr;
+    text-orientation: upright; text-align: start; margin-left: -50px; margin-right: -7%;}
+   .figures{width:100%;margin-left: -8%;}
+    .figures2{width: 100%; margin-left: -10%;}
+    .stat2{margin-left: -10%;}
+    .H2{  width: 200px;  }
+    .cards{display:flex;
+      justify-content: flex-start;
+      width: 22%;
+      
+      
+      height: 200px;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item{  display:flex; flex-flow: row wrap;  justify-content:center;   width:150px ; height:200px ; background-color: hsla(0,0%,100%,.98);  ; border-radius: 4%;  transform-style: preserve-3d;
+  transition: all 0.8s ease;}
+.item:hover{ transform: rotateY(180deg);}
+
+
+
+
+ 
+
+
+ /* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+ .thefront{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  
+  color: #000;
+}
+
+/* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+.theback{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background:azure;
+  color: #333;
+  text-align: center;
+  transform: rotateY(180deg);
+  font-family: 'Cinzel Decorative', cursive;
+}
+.theback p{ font-family: 'Cinzel Decorative', cursive;}
+
+
+
+
+.hover1{position: absolute ;}
+
+.hover2{position: absolute  }
+
+.hover3{position: absolute ; }
+.hover4{position: absolute ; }
+
+
+
+
+
+
+
+
+
+.footer{font-family: 'Cinzel Decorative', cursive;}
+.about{  display:flex;   justify-content:center;   width:250px ; height:100px ; background-color: hsla(0,0%,100%,.98);  ; border-radius: 4%;  transform-style: preserve-3d;
+  transition: all 0.8s ease;margin-top:-70px ; margin-left: -300px;  }
+.about:hover{ transform: rotateY(180deg);}
+.thefront2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 230px;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  
+  color: #000;
+}
+.theback2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 230px;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background:azure;
+  color: #333;
+  text-align: center;
+  transform: rotateY(180deg);
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+
+.lead_logo:hover{border:solid rgb(218,165,32) ;padding:2px ;}
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
